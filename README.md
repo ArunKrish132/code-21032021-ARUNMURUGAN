@@ -11,13 +11,43 @@ BMI(kg/m^2) = mass(kg) / height(m)
 The BMI (Body Mass Index) in (kg/m^2) is equal to the weight in kilograms (kg) divided by your height in meters squared (m)^2 . 
 For example, if you are 175cm (1.75m) in height and 75kg in weight, you can calculate your BMI as follows: 75kg / (1.75m2) = 24.49kg/m^2
 
-**BMI Range (kg/m2)**   **BMI Category**	      **Health risk**
-18.4 and below 	          Underweight 	        Malnutrition risk 
-18.5 - 24.9	             Normal weight 	            Low risk 
-25 - 29.9	                Overweight 	            Enhanced risk 
-30 - 34.9	              Moderately obese 	         Medium risk 
-35 - 39.9	               Severely obese 	          High risk
-40 and above	         Very severely obese	      Very high risk
+<table>
+  <tr>
+    <th>BMI Range (kg/m2)</th>
+    <th>BMI Category</th>
+    <th>Health risk</th>
+  </tr>
+  <tr>
+    <td>18.4 and below</td>
+    <td>Underweight</td>
+    <td>Malnutrition risk</td>
+  </tr>
+  <tr>
+    <td>18.5 - 24.9</td>
+    <td>Normal weight</td>
+    <td>Low risk</td>
+  </tr>
+  <tr>
+    <td>25 - 29.9</td>
+    <td>Overweight</td>
+    <td>Enhanced risk</td>
+  </tr>
+  <tr>
+    <td>30 - 34.9</td>
+    <td>Moderately obese</td>
+    <td>Medium risk</td>
+  </tr>
+  <tr>
+    <td>35 - 39.9</td>
+    <td>Severely obese</td>
+    <td>High risk</td>
+  </tr>
+  <tr>
+    <td>40 and above</td>
+    <td>Very severely obese</td>
+    <td>Very high risk</td>
+  </tr>
+</table>
 
 Sample Input JSON:
 [{"Gender": "Male", "HeightCm": 171, "WeightKg": 96 }, { "Gender": "Male", "HeightCm": 161, "WeightKg":
